@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+h1 { 
+    text-align : center;
+}
+
+.decription {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.header, .nav, .content, .aside, .footer {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+}
