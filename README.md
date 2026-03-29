@@ -14,3 +14,5 @@ Le numérique est désormais partout. Dans notre vie professionnelle comme priv�
 
 * Exemples de sites marchands
     * [Ceramic](https://demo.templatesjungle.com/clayhaven) 
+* Exemples de photos avec des bougies
+    * [Photos de bougies](https://unsplash.com/fr/s/photos/bougies) 
