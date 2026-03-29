@@ -2,7 +2,7 @@
 
 #### Description du site web
 
----
+Au fil du temps, de plus en plus de personnes utilise l'Internet.
 
 #### Maquette des pages web
 
