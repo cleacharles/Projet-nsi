@@ -2,7 +2,7 @@
 
 #### Description du site web
 
-Au fil du temps, de plus en plus de personnes utilise l'Internet.
+Le numérique est désormais partout. Dans notre vie professionnelle comme privée. La vente en ligne s'est rapidement formée. Donc voilà un site de vente de bougies en ligne, accessible à tous.
 
 #### Maquette des pages web
 
