@@ -13,6 +13,12 @@ Le numérique est désormais partout. Dans notre vie professionnelle comme priv�
 #### Annexes
 
 * Exemples de sites marchands
+    * [Les Bougies de Charroux](https://www.bougies-charroux.com)
+    * [Les Bougies de France](https://www.lesbougiesdefrance.fr)
+* Exemples de faux sites web
+    * [By Daddy](https://chrc.github.io)
     * [Ceramic](https://demo.templatesjungle.com/clayhaven) 
 * Exemples de photos avec des bougies
-    * [Photos de bougies](https://unsplash.com/fr/s/photos/bougies) 
+    * [Photos de bougies - pexels](https://www.pexels.com/fr-fr/chercher/bougies)
+    * [Photos de bougies - unsplash](https://unsplash.com/fr/s/photos/bougies) 
+
