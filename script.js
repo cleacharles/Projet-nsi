@@ -11,7 +11,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
     customOptionsItems.forEach(option => {
         option.addEventListener("click", function(){
-
+            customDefault.innerHTML = `
+            ${this.textContent}
+            <span class="material-icons">expand_more</span>
+            `
+            hiddenInput.value = this.getAttribute('data-value')
         })
     })
 })
