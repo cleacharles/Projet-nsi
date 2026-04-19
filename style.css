@@ -32,6 +32,10 @@ h1 {
     color: blue;
 }
 
-.liste-bougies img{
-    width: 100px;
+.liste-bougies img {
+    width: 200px;
+}
+
+.liste-box img {
+    width: 200px;
 }
