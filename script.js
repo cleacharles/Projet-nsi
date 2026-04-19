@@ -19,3 +19,7 @@ document.addEventListener("DOMContentLoaded", function(){
         })
     })
 })
+
+document.("monBouton").addEventListener("click", function() {
+    alert("Bonjour ! Vous avez cliqué sur le bouton.");
+});
