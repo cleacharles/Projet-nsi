@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 })
 
-document.("monBouton").addEventListener("click", function() {
-    alert("Bonjour ! Vous avez cliqué sur le bouton.");
-});
+document.querySelectorAll(".liste-bougies img")
+    .forEach(function (image) {
+        image.addEventListener("click", function () {
+            alert("Bonjour ! Vous avez cliqué sur l'image.");
+        })
+    });
