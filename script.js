@@ -9,7 +9,18 @@ function recupererPanier() {
 // Enregistrer le panier
 function enregistrerPanier(panier) {
     localStorage.setItem('panier', JSON.stringify(panier));
-    // mettre à jour le nombre de produits dans le panier
+    mettreAJourPanier();
+}
+
+// Mettre à jour le nombre de produits dans le panier
+function mettreAJourPanier() {
+    const panier = recupererPanier();
+    const nombreTotalProduits = panier.reduce((somme, produit) => somme + produit.quantite, 0);
+
+    const elementsPanier = document.querySelectorAll('.cart-count');
+    elementsPanier.forEach(element => {
+        element.textContent = nombreTotalProduits;
+    });
 }
 
 // Ajouter un produit au panier
@@ -34,6 +45,10 @@ document.querySelectorAll(".liste-bougies img")
             ajouterAuPanier(image.id);
         })
     });
+
+// Initialiser le compteur au chargement de la page
+document.addEventListener('DOMContentLoaded', mettreAJourPanier);
+
 
 
 
