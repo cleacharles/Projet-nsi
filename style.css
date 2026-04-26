@@ -40,16 +40,16 @@ ul {
     width: 200px;
 }
 
-.lien-accueil {
+.lien-menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.lien-item {
     display: inline-block;
     color: #d4a574;
     margin-bottom: 2rem;
     font-weight: 500;
     text-decoration: none;
-}
-
-.lien-menu {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
 }
