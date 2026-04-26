@@ -39,6 +39,11 @@ function ajouterAuPanier(produitId, quantite = 1) {
     enregistrerPanier(panier);
 }
 
+function viderPanier() {
+    localStorage.removeItem('panier');
+    mettreAJourPanier();
+}
+
 document.querySelectorAll(".liste-bougies img")
     .forEach(function (image) {
         image.addEventListener("click", function () {
