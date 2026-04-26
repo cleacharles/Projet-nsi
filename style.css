@@ -1,57 +1,57 @@
-body {
-    background-color: white;
-    max-width: 1200px;
-    margin: 0 auto;
+body {  /*style du corps de la page*/
+    background-color: white; /*fond blanc*/
+    max-width: 1200px; /*largeur max 1200px*/
+    margin: 0 auto; /*centre de la page*/
 }
-h1 { 
-    text-align : center;
-    font-size: 60px;
-    font-family: Georgia;
-}
-
-.decription {
-    font-size: 16px;
-    font-style: italic;
+h1 {  /*style du titre*/
+    text-align : center; /*centre le texte*/
+    font-size: 60px; /*taille 60px*/
+    font-family: Georgia; /*police Georgia*/
 }
 
-.header, .nav, .content, .aside, .footer {
-    padding: 20px;
-    margin: 10px;
-    border: 1px solid black;
+.decription {  /*style description*/
+    font-size: 16px; /*taille 16px*/
+    font-style: italic; /*italique*/
 }
 
-.header {
-    height: 300px;
-    background-image: url("images/sixteen-miles.png");
-    align-content: center;
+.header, .nav, .content, .aside, .footer {  /*styles commun*/
+    padding: 20px; /*espace interieur*/
+    margin: 10px; /*marge*/
+    border: 1px solid black; /*borudre noir*/
 }
 
-.nav td {
-    padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 1px solid black;
-    color: blue;
+.header {  /*en-tete*/
+    height: 300px; /*hauteur 300px*/
+    background-image: url("images/sixteen-miles.png"); /*image de fond*/
+    align-content: center; /* centre contenu*/
 }
 
-ul {
+.nav td {  /*style des cellules*/
+    padding: 20px; /*remplissage*/
+    margin-left: 50px; /*marge gauche*/
+    margin-right: 50px; /*marge droite*/
+    border: 1px solid black; /*cote noir*/
+    color: blue; /*couleur bleu*/
+}
+
+ul {  /*liste sans puces*/
     list-style: none;
 }
 
-.liste-bougies img {
+.liste-bougies img {  /*image largeur 200px*/
     width: 200px;
 }
 
-.lien-menu {
-    display: flex;
+.lien-menu {  /*menu aligne*/
+    display: flex;  
     gap: 2rem;
-    align-items: center;
+    align-items: center;  /* L46 a L48 centre les elements*/
 }
 
-.lien-item {
-    display: inline-block;
-    color: #d4a574;
-    margin-bottom: 2rem;
-    font-weight: 500;
-    text-decoration: none;
+.lien-item {  /*style des liens*/
+    display: inline-block; /*affichage*/
+    color: #d4a574; /*couleur*/
+    margin-bottom: 2rem; /*marge*/
+    font-weight: 500; /*taille*/
+    text-decoration: none; /*texte*/
 }
