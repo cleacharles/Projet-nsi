@@ -23,6 +23,8 @@ function ajouterAuPanier(produitId, quantite = 1) {
         panier.push({ id: produitId, quantite: quantite });
     }
 
+    alert("Panier : " + JSON.stringify(panier));
+
     enregistrerPanier(panier);
 }
 
