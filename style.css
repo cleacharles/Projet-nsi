@@ -1,57 +1,292 @@
-body {  /*style du corps de la page*/
-    background-color: white; /*fond blanc*/
-    max-width: 1200px; /*largeur max 1200px*/
-    margin: 0 auto; /*centre de la page*/
-}
-h1 {  /*style du titre*/
-    text-align : center; /*centre le texte*/
-    font-size: 60px; /*taille 60px*/
-    font-family: Georgia; /*police Georgia*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.decription {  /*style description*/
-    font-size: 16px; /*taille 16px*/
-    font-style: italic; /*italique*/
+body {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
 }
 
-.header, .nav, .content, .aside, .footer {  /*styles commun*/
-    padding: 20px; /*espace interieur*/
-    margin: 10px; /*marge*/
-    border: 1px solid black; /*borudre noir*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.header {  /*en-tete*/
-    height: 300px; /*hauteur 300px*/
-    background-image: url("images/sixteen-miles.png"); /*image de fond*/
-    align-content: center; /* centre contenu*/
+h1 { 
+    text-align : center;
+    font-size: 60px;
 }
 
-.nav td {  /*style des cellules*/
-    padding: 20px; /*remplissage*/
-    margin-left: 50px; /*marge gauche*/
-    margin-right: 50px; /*marge droite*/
-    border: 1px solid black; /*cote noir*/
-    color: blue; /*couleur bleu*/
+.decription {
+    font-size: 16px;
+    font-style: italic;
 }
 
-ul {  /*liste sans puces*/
+.header, .nav, .content, .aside, .footer {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.header {
+    height: 300px;
+    background-image: url("images/sixteen-miles.png");
+    align-content: center;
+}
+
+.nav td {
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid black;
+    color: blue;
+}
+
+ul {
     list-style: none;
 }
 
-.liste-bougies img {  /*image largeur 200px*/
-    width: 200px;
+.liste-bougies {
+    margin-top: 2rem;
 }
 
-.lien-menu {  /*menu aligne*/
-    display: flex;  
+.liste-bougies img {
+    width: 150px;
+}
+
+.lien-menu {
+    display: flex;
     gap: 2rem;
-    align-items: center;  /* L46 a L48 centre les elements*/
+    align-items: center;
+    margin-top: 2rem;
 }
 
-.lien-item {  /*style des liens*/
-    display: inline-block; /*affichage*/
-    color: #d4a574; /*couleur*/
-    margin-bottom: 2rem; /*marge*/
-    font-weight: 500; /*taille*/
-    text-decoration: none; /*texte*/
+.lien-item {
+    display: inline-block;
+    color: #d4a574;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    text-decoration: none;
 }
+
+.lien-panier {
+    margin-left: auto;
+}
+
+.panier-compteur {
+    position: relative;
+    top: -35px;
+    right: -65px;
+    background-color: #d4a574;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.panier-vide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.panier-vide h2 {
+    font-size: 2rem;
+    color: #2c2416;
+    margin-bottom: 1rem;
+}
+
+.panier-vide p {
+    color: #8b7355;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.panier-vide-icon {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.panier-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.panier-produits {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.panier-titre {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.panier-item {
+    display: grid;
+    grid-template-columns: 100px 1fr auto auto auto;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid #e5dcc9;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.panier-item-image img {
+    width: 100px;
+}
+
+.panier-item-details h3 {
+    font-size: 1.2rem;
+    color: #2c2416;
+    margin-bottom: 0.25rem;
+}
+
+.panier-item-prix {
+    color: #d4a574;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.panier-item-quantite {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #f5e6d3;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.panier-item-quantite .bouton-quantite {
+    background-color: white;
+    border: 1px solid #e5dcc9;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.panier-item-total {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2c2416;
+    min-width: 80px;
+    text-align: right;
+}
+
+.affichage-quantite {
+    min-width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.panier-item-supprime {
+    background-color: transparent;
+    border: none;
+    color: #8b7355;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.panier-resume {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    position: sticky;
+    top: 90px;
+}
+
+.panier-resume h2 {
+    font-size: 1.5rem;
+    color: #2c2416;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e5dcc9;
+}
+
+.resume-ligne {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: #3d3226;
+}
+
+.resume-diviseur {
+    height: 1px;
+    background-color: #e5dcc9;
+    margin: 1.5rem 0;
+}
+
+.resume-total {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2c2416;
+}
+
+.panier-resume .bouton {
+    margin-bottom: 0.75rem;
+}
+
+.bouton {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bouton-principal {
+    background-color: #d4a574;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.bouton-secondaire {
+    background-color: transparent;
+    color: #d4a574;
+    border: 2px solid #d4a574;
+    width: 100%;
+}
+
+.bouton-vider {
+    margin-left: auto;
+}
+
+.bouton-retour {
+    background-color: #5f3f1d;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+

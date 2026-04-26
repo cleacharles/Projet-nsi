@@ -1,27 +1,71 @@
-<!DOCTYPE html> <!--indique le doc-->
-<html> <!--debut page HTML-->
-<head> <!--contient informations invisibles a la page-->
-    <meta charset="utf-8"> <!--defini l'encodage des caracteres-->
-    <title>Votre Panier</title> <!--titre de la page-->
-    <link rel="stylesheet" href="style.css"> <!--relie le fichier CSS pour le style-->
-</head> <!--fin de l'en-tete-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Votre Panier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+    <div>
+        <ul class="lien-menu">
+            <li>
+                <a href="index.html" class="lien-item">← Retour à la page d'accueil</a>
+            </li>
+        </ul>
+    </div>
 
-<body> <!--debut du contenu visible-->
-    <div> <!--conteneur de bloc-->
-        <ul class="lien-menu"> <!--liste avec un classe CSS-->
-            <li> <!--element de la liste-->
-                <a href="index.html" class="lien-item">← Retour à la page d'accueil</a> <!--lien vers la page d'accueil-->
-            </li> <!--fin de l'element-->
-        </ul> <!--fin de la liste-->
-    </div> <!--fin du bloc-->
+    <h1>Votre panier</h1>
 
-    <h1>Votre panier</h1> <!--titre affiche-->
+    <div class="container">
 
-    <div> <!--nouveau bloc-->
-        <button onclick="viderPanier()">Vider le Panier</button> <!--bouton qui appelle la fonction JS pour vider le panier-->
-    </div> <!--fin dubloc-->
+        <div id="panier-vide" class="panier-vide" style="display: none;">
+            <div class="panier-vide-icon">🛒</div>
+            <h2>Votre panier est vide</h2>
+            <p>Découvrez nos bougies et ajoutez vos préférées !</p>
+            <a href="index.html" class="bouton bouton-retour">Retour à la Boutique</a>
+        </div>
 
-    <script src="script.js"></script> <!--lie le fichier JavaScript-->
-</body> <!--fin du contenu-->
-</html> <!--fin du document-->
+        <div id="panier-contenu" class="panier-layout">
+            <div class="panier-produits">
+                <div class="panier-titre">
+                    <h2>Produits dans le panier</h2>
+                    <button class="bouton bouton-vider" onclick="viderPanier()">Vider le Panier</button>
+                </div>
+                <div id="panier-produits-container">
+                    <!-- Les articles seront chargés dynamiquement -->
+                </div>
+            </div>
+
+            <div class="panier-resume">
+                <h2>Résumé de la commande</h2>
+                <div class="resume-ligne">
+                    <span>Sous-total</span>
+                    <span id="soustotal">0.00 €</span>
+                </div>
+                <div class="resume-ligne">
+                    <span>Livraison</span>
+                    <span>Gratuit</span>
+                </div>
+                <div class="resume-diviseur"></div>
+                <div class="resume-ligne resume-total">
+                    <span>Total</span>
+                    <span id="total">0.00 €</span>
+                </div>
+                <a href="#" class="bouton bouton-principal">
+                    Passer la commande
+                </a>
+                <a href="index.html" class="bouton bouton-secondaire">
+                    Continuer mes achats
+                </a>
+            </div>
+        </div>
+   </div>
+
+    <script src="produits.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', afficherPanier);
+    </script>
+</body>
+</html>
