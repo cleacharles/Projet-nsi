@@ -1,5 +1,7 @@
 ## PROJET NSI - Cléa et Alana
 
+- [Le site web sur github.io](https://cleacharles.github.io/Projet-nsi)
+
 #### Description du site web
 
 Le numérique est désormais partout. Dans notre vie professionnelle comme privée. La vente en ligne s'est rapidement formée. Donc voilà un site de vente de bougies en ligne, accessible à tous.
