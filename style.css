@@ -32,6 +32,10 @@ h1 {
     color: blue;
 }
 
+ul {
+    list-style: none;
+}
+
 .liste-bougies img {
     width: 200px;
 }
@@ -42,4 +46,10 @@ h1 {
     margin-bottom: 2rem;
     font-weight: 500;
     text-decoration: none;
+}
+
+.lien-menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
 }
