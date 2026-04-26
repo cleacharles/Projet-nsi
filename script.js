@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', mettreAJourPanier);
 function changerPanierQuantite(produitId, nouvelleQuantite) {
     if (nouvelleQuantite < 1) {
         if (confirm('Voulez-vous retirer cet article du panier ?')) {
-            removeFromCart(produitId);
+            supprimerDuPanier(produitId);
         }
         return;
     }
