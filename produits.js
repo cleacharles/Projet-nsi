@@ -45,7 +45,7 @@ const PRODUITS = [
         id: "pensees",
         nom: "Box à la pensées",
         prix: 45.0,
-        src: "images/Pensées"
+        src: "images/Pensées.jpeg"
     },
     {
         id: "tulipes",
@@ -64,6 +64,12 @@ const PRODUITS = [
         nom: "Box au myosotis",
         prix: 45.0,
         src: "images/Myosotis.jpeg"
+    },
+    {
+        id: "jacinthe",
+        nom: "Box au jacinthe",
+        prix: 45.0,
+        src: "images/Jacinthe.jpeg"
     },
 
 ];
