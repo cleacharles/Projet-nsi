@@ -107,4 +107,4 @@ const PRODUITS = [
         prix: 100.0,
         src: "images/Vanille.jpeg"
     }
-];
+]
