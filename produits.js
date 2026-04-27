@@ -36,37 +36,37 @@ const PRODUITS = [
         src: "images/Vanille.jpeg"
     },
     {
-        id: "primeveres",
-        nom: "Box à la pimevères",
+        id: "boxs_primevere",
+        nom: "Box Primevère",
         prix: 45.0,
         src: "images/Primevères.jpeg"
     },
     {
-        id: "pensees",
+        id: "boxs_pensees",
         nom: "Box à la pensées",
         prix: 45.0,
         src: "images/Pensées.jpeg"
     },
     {
-        id: "tulipes",
+        id: "boxs_tulipes",
         nom: "Box à la tulipe",
         prix: 45.0,
         src: "images/Tulipes.jpeg"
     },
     {
-        id: "crocus",
+        id: "boxs_crocus",
         nom: "Box au crocus",
         prix: 45.0,
         src: "images/Crocus.jpeg"
     },
     {
-        id: "jacinthe",
+        id: "boxs_jacinthe",
         nom: "Box au jacinthe",
         prix: 45.0,
         src: "images/Jacinthe.jpeg"
     },
     {
-        id: "myosotis",
+        id: "boxs_myosotis",
         nom: "Box au myosotis",
         prix: 45.0,
         src: "images/Myosotis.jpeg"
