@@ -77,5 +77,40 @@ const PRODUITS = [
         prix: 45.0,
         src: "images/Myosotis.jpeg"
     },
-
+    {
+        id: "cerise",
+        nom: "Box à la cerise",
+        prix: 45.0,
+        src: "images/Cerise.jpeg"
+    },
+    {
+        id: "coco",
+        nom: "Box à la coco",
+        prix: 45.0,
+        src: "images/Coco.jpeg"
+    },
+    {
+        id: "framboise",
+        nom: "Box à la framboise",
+        prix: 45.0,
+        src: "images/Framboise.jpeg"
+    },
+    {
+        id: "mangue",
+        nom: "Box à la mangue",
+        prix: 45.0,
+        src: "images/Framboise.jpeg"
+    },
+    {
+        id: "myrtille",
+        nom: "Box à la mytille",
+        prix: 45.0,
+        src: "images/Myrtille.jpeg"
+    },
+    {
+        id: "vanille",
+        nom: "Box à la vanille",
+        prix: 45.0,
+        src: "images/Vanille.jpeg"
+    }
 ];
