@@ -43,31 +43,31 @@ const PRODUITS = [
     },
     {
         id: "boxs_pensees",
-        nom: "Box à la pensées",
+        nom: "Box Pensées",
         prix: 45.0,
         src: "images/Pensées.jpeg"
     },
     {
-        id: "boxs_tulipes",
-        nom: "Box à la tulipe",
+        id: "boxs_tulipe",
+        nom: "Box Tulipe",
         prix: 45.0,
         src: "images/Tulipes.jpeg"
     },
     {
         id: "boxs_crocus",
-        nom: "Box au crocus",
+        nom: "Box Crocus",
         prix: 45.0,
         src: "images/Crocus.jpeg"
     },
     {
         id: "boxs_jacinthe",
-        nom: "Box au jacinthe",
+        nom: "Box Jacinthe",
         prix: 45.0,
         src: "images/Jacinthe.jpeg"
     },
     {
         id: "boxs_myosotis",
-        nom: "Box au myosotis",
+        nom: "Box Myosotis",
         prix: 45.0,
         src: "images/Myosotis.jpeg"
     },
