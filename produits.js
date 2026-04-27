@@ -35,4 +35,10 @@ const PRODUITS = [
         prix: 25.0,
         src: "images/Vanille.jpeg"
     }
+    {
+        id: "primevère"
+        nom:
+        prix:
+        src:
+    }
 ];
