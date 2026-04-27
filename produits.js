@@ -71,5 +71,11 @@ const PRODUITS = [
         prix: 45.0,
         src: "images/Jacinthe.jpeg"
     },
+    {
+        id: "myosotis",
+        nom: "Box au myosotis",
+        prix: 45.0,
+        src: "images/Myosotis.jpeg"
+    },
 
 ];
