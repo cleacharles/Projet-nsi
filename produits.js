@@ -1,36 +1,36 @@
 const PRODUITS = [
     {
-        id: "cerise",
+        id: "bou_cerise",
         nom: "Bougie à la cerise",
         prix: 25.0,
         src: "images/Cerise.jpeg"
     },
     {
-        id: "coco",
+        id: "bou_coco",
         nom: "Bougie à la coco",
         prix: 25.0,
         src: "images/Coco.jpeg"
     },
     {
-        id: "framboise",
+        id: "bou_framboise",
         nom: "Bougie à la framboise",
         prix: 25.0,
         src: "images/Framboise.jpeg"
     },
     {
-        id: "mangue",
+        id: "bou_mangue",
         nom: "Bougie à la mangue",
         prix: 25.0,
         src: "images/Mangue.jpeg"
     },
     {
-        id: "myrtille",
+        id: "bou_myrtille",
         nom: "Bougie à la myrtille",
         prix: 25.0,
         src: "images/Myrtille.jpeg"
     },
     {
-        id: "vanille",
+        id: "bou_vanille",
         nom: "Bougie à la vanille",
         prix: 25.0,
         src: "images/Vanille.jpeg"
