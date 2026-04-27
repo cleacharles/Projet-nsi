@@ -42,6 +42,24 @@ const PRODUITS = [
         src: "images/Primevère.jpeg"
     },
     {
+        id: "pensees",
+        nom: "Box à la pensées",
+        prix: 45,0,
+        src: "images/Pensées"
+    },
+    {
+        id:
+        nom:
+        prix:
+        src:
+    },
+    {
+        id:
+        nom:
+        prix:
+        src:
+    },
+    {
         id:
         nom:
         prix:
