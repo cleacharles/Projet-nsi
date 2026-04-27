@@ -34,11 +34,18 @@ const PRODUITS = [
         nom: "Bougie à la vanille",
         prix: 25.0,
         src: "images/Vanille.jpeg"
-    }
+    },
     {
-        id: "primevère"
+        id: "primevere",
+        nom: "Boxe à la primevère",
+        prix: 45,0,
+        src: "images/Primevère.jpeg"
+    },
+    {
+        id:
         nom:
         prix:
         src:
-    }
+    },
+
 ];
