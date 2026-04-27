@@ -36,10 +36,11 @@ const PRODUITS = [
         src: "images/Vanille.jpeg"
     },
     {
-        id: "primevere",
-        nom: "Box à la primevère",
+        id: "primeveres",
+        nom: "Box à la pimevères",
         prix: 45.0,
-        src: "images/Primevère.jpeg"
+        src: "images/Primevères.jpeg"
+
     },
     {
         id: "pensees",
