@@ -37,7 +37,7 @@ const PRODUITS = [
     },
     {
         id: "primevere",
-        nom: "Boxe à la primevère",
+        nom: "Box à la primevère",
         prix: 45.0,
         src: "images/Primevère.jpeg"
     },
