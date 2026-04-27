@@ -40,7 +40,6 @@ const PRODUITS = [
         nom: "Box à la pimevères",
         prix: 45.0,
         src: "images/Primevères.jpeg"
-
     },
     {
         id: "pensees",
