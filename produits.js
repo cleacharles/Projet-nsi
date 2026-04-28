@@ -1,110 +1,110 @@
 const PRODUITS = [
     {
         id: "bou_cerise",
-        nom: "Bougie à la cerise",
+        nom: "Bougie Cerise",
         prix: 25.0,
-        src: "images/Cerise.jpeg"
+        src: "images/bou_cerise.png"
     },
     {
         id: "bou_coco",
-        nom: "Bougie à la coco",
+        nom: "Bougie Coco",
         prix: 25.0,
-        src: "images/Coco.jpeg"
+        src: "images/bou_coco.png"
     },
     {
         id: "bou_framboise",
-        nom: "Bougie à la framboise",
+        nom: "Bougie Framboise",
         prix: 25.0,
-        src: "images/Framboise.jpeg"
+        src: "images/bou_framboise.png"
     },
     {
         id: "bou_mangue",
-        nom: "Bougie à la mangue",
+        nom: "Bougie Mangue",
         prix: 25.0,
-        src: "images/Mangue.jpeg"
+        src: "images/bou_mangue.png"
     },
     {
         id: "bou_myrtille",
-        nom: "Bougie à la myrtille",
+        nom: "Bougie Myrtille",
         prix: 25.0,
-        src: "images/Myrtille.jpeg"
+        src: "images/bou_myrtille.png"
     },
     {
         id: "bou_vanille",
-        nom: "Bougie à la vanille",
+        nom: "Bougie Vanille",
         prix: 25.0,
-        src: "images/Vanille.jpeg"
-    },
-    {
-        id: "boxs_primevere",
-        nom: "Box Primevère",
-        prix: 45.0,
-        src: "images/Primevères.jpeg"
-    },
-    {
-        id: "boxs_pensees",
-        nom: "Box Pensées",
-        prix: 45.0,
-        src: "images/Pensées.jpeg"
-    },
-    {
-        id: "boxs_tulipe",
-        nom: "Box Tulipe",
-        prix: 45.0,
-        src: "images/Tulipes.jpeg"
-    },
-    {
-        id: "boxs_crocus",
-        nom: "Box Crocus",
-        prix: 45.0,
-        src: "images/Crocus.jpeg"
-    },
-    {
-        id: "boxs_jacinthe",
-        nom: "Box Jacinthe",
-        prix: 45.0,
-        src: "images/Jacinthe.jpeg"
-    },
-    {
-        id: "boxs_myosotis",
-        nom: "Box Myosotis",
-        prix: 45.0,
-        src: "images/Myosotis.jpeg"
+        src: "images/bou_vanille.png"
     },
     {
         id: "box_cerise",
         nom: "Box Cerise",
         prix: 100.0,
-        src: "images/Cerise.jpeg"
+        src: "images/box_cerise.png"
     },
     {
         id: "box_coco",
         nom: "Box Coco",
         prix: 100.0,
-        src: "images/Coco.jpeg"
+        src: "images/box_coco.png"
     },
     {
         id: "box_framboise",
         nom: "Box Framboise",
         prix: 100.0,
-        src: "images/Framboise.jpeg"
+        src: "images/box_framboise.png"
     },
     {
         id: "box_mangue",
         nom: "Box Mangue",
         prix: 100.0,
-        src: "images/Framboise.jpeg"
+        src: "images/box_mangue.png"
     },
     {
         id: "box_myrtille",
         nom: "Box Mytille",
         prix: 100.0,
-        src: "images/Myrtille.jpeg"
+        src: "images/box_myrtille.png"
     },
     {
         id: "box_vanille",
         nom: "Box Vanille",
         prix: 100.0,
-        src: "images/Vanille.jpeg"
+        src: "images/box_vanille.png"
+    },
+    {
+        id: "boxs_primevere",
+        nom: "Box saisonnière Primevère",
+        prix: 45.0,
+        src: "images/boxs_primevere.png"
+    },
+    {
+        id: "boxs_pensees",
+        nom: "Box saisonnière Pensées",
+        prix: 45.0,
+        src: "images/boxs_pensees.png"
+    },
+    {
+        id: "boxs_tulipe",
+        nom: "Box saisonnière Tulipe",
+        prix: 45.0,
+        src: "images/boxs_tulipe.png"
+    },
+    {
+        id: "boxs_crocus",
+        nom: "Box saisonnière Crocus",
+        prix: 45.0,
+        src: "images/boxs_crocus.png"
+    },
+    {
+        id: "boxs_myosotis",
+        nom: "Box saisonnière Myosotis",
+        prix: 45.0,
+        src: "images/boxs_myosotis.png"
+    },
+    {
+        id: "boxs_jacinthe",
+        nom: "Box saisonnière Jacinthe",
+        prix: 45.0,
+        src: "images/boxs_jacinthe.png"
     }
 ]
